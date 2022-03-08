@@ -1,0 +1,70 @@
+.the-cart{
+  position: absolute;
+  width: 25vw;
+  height: 33vh;
+  background-color: white;
+  top: 59px;
+  right: 98px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 10px;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.cart-title {
+  font-family: 'Kumbh Sans', sans-serif;
+  border-bottom: 1px solid hsl(220, 14%, 75%);
+  padding: 15px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+button {
+  background-color: hsl(26, 100%, 55%);
+  border: none;
+  color: white;
+  padding: 10px 50px 10px 50px;
+  border-radius: 7px;
+  cursor: pointer;
+
+}
+button:hover {
+  background-color: orange;
+}
+
+.checkout-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.inner-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+
+.item-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 10vw;
+  line-height: 23px;
+}
+
+.mini-image {
+  width: 40px;
+  height: 45px;
+  padding-right: 30px;
+  border-radius: 2px;
+}
+.pointer {
+  cursor: pointer;
+}
+
+.garbage {
+  cursor: pointer;
+  margin-left: 10px;
+}

@@ -1,0 +1,27 @@
+.big-image {
+  width: 30vw;
+  height: 28vw;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  margin-top: 30px;
+}
+
+.thumbnails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.single-thumb {
+  margin-right: 5px;
+  max-height: 15%;
+  max-width: 15%;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.thumb-click {
+  border: 1px solid orange;
+  filter: saturate(50%);
+}
+

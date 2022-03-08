@@ -1,0 +1,12 @@
+<div>
+  <img class="big-image" src="{{currentImage}}">
+</div>
+
+<div class="thumbnails">
+
+  <img (click)="currentImage='assets/images/image-product-1.jpg'" [ngClass]="{'thumb-click':currentImage =='assets/images/image-product-1.jpg'}" class="single-thumb" src="assets/images/image-product-1-thumbnail.jpg" alt="shoes 1">
+  <img (click)="currentImage='assets/images/image-product-2.jpg'" [ngClass]="{'thumb-click':currentImage =='assets/images/image-product-2.jpg'}" class="single-thumb" src="assets/images/image-product-2-thumbnail.jpg" alt="shoes 2">
+  <img (click)="currentImage='assets/images/image-product-3.jpg'" [ngClass]="{'thumb-click':currentImage =='assets/images/image-product-3.jpg'}" class="single-thumb" src="assets/images/image-product-3-thumbnail.jpg" alt="shoes 3">
+  <img (click)="currentImage='assets/images/image-product-4.jpg'" [ngClass]="{'thumb-click':currentImage =='assets/images/image-product-4.jpg'}" class="single-thumb" src="assets/images/image-product-4-thumbnail.jpg" alt="shoes 4">
+
+</div>

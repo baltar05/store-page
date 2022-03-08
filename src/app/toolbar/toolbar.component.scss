@@ -1,0 +1,46 @@
+mat-toolbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(0, 0%, 100%);
+  border-bottom: 1px solid hsl(220, 14%, 75%);
+  padding: 40px;
+}
+
+.logo {
+  margin-right: 25px;
+}
+.avatar {
+  max-width: 20px;
+  max-height: 20px;
+  border: 2px solid transparent;
+  border-radius: 100%;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.avatar:hover {
+  border: 2px solid hsl(26, 100%, 55%);
+}
+.tool-left {
+}
+
+button:hover{
+  border-bottom: 2px solid hsl(26, 100%, 55%);
+  color: black;
+
+}
+
+.tool-button {
+  border: none;
+  background: white;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: grey;
+  height: 63px;
+  border-bottom: 2px solid transparent;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+

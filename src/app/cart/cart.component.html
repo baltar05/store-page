@@ -1,0 +1,19 @@
+<img class="pointer" (click)="openOrClose()" src="/assets/icons/icon-cart.svg" alt ="cart icon">
+
+<div *ngIf="openCart" class="the-cart">
+  <h3 class="cart-title">Cart</h3>
+  <div class="inner-cart">
+    <p *ngIf="empty"> Your cart is empty.</p>
+    <div class="item-cart" *ngIf="!empty">
+      <img class="mini-image" src="assets/images/image-product-1-thumbnail.jpg">
+      <p> {{products.description}} <br>
+        ${{products.value}} x {{products.counter}} <strong>${{products.totalValue}}.00</strong> </p>
+      <img class="garbage" (click)="excluir()" src="assets/icons/icon-delete.svg">
+    </div>
+  </div>
+  <div class="checkout-button">
+    <button>Checkout</button>
+  </div>
+
+
+</div>
